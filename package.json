@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@parcel/config-default": "^2.10.0",
+    "parcel": "^2.10.0",
+    "parcel-namer-hashless": "^1.0.5"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "parcel-namer-hashless": {
+    "include": [
+      ".ico$"
+    ],
+    "mode": "all"
+  }
+}
